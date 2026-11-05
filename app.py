@@ -3,7 +3,7 @@ def request_leave(balance, days):
         return "Invalid leave request"
     if days > balance:
         return "Insufficient leave balance"
-    return "Leave request submitted"
+    return "Leave approved"
 
 
 if __name__ == "__main__":
